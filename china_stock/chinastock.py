@@ -7,8 +7,6 @@ class Query():
 
     def __init__(self, tickers):
         self.tickers = tickers
-        self.request_data()
-        self.process_data()
 
     def request_data(self):
         data = urllib.request.urlopen(SOURCE + ','.join(self.tickers)).read().decode('gb2312')
@@ -39,3 +37,6 @@ class Query():
                 print('Incorrect ticker')
                 return
         self.data = dataset
+        
+    def get_data(self):
+        return self.data

@@ -5,11 +5,15 @@ china-stock
 Install
 ~~~~~~~
 
+.. code:: bash
+
 	$ pip install china-stock
 
 ~~~~
 Test
 ~~~~
+
+.. code:: bash
 
 	$ python -m unittest tests/test.py
 

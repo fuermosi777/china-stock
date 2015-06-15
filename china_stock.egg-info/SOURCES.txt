@@ -3,6 +3,7 @@ setup.py
 china_stock/__init__.py
 china_stock/chinastock.py
 china_stock.egg-info/PKG-INFO
+china_stock.egg-info/PKG-INFO (Hao’s MacBook Pro (2)'s conflicted copy 2015-06-15)
 china_stock.egg-info/SOURCES.txt
 china_stock.egg-info/dependency_links.txt
 china_stock.egg-info/entry_points.txt

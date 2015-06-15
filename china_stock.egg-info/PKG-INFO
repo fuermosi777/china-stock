@@ -2,27 +2,42 @@ Metadata-Version: 1.1
 Name: china-stock
 Version: 0.1.1
 Summary: china stock
-Home-page: https://github.com/lukaszbanasiak/yahoo-finance
+Home-page: https://github.com/fuermosi777/china-stock
 Author: Hao Liu
 Author-email: liuhao1990@gmail.com
 License: MIT
-Download-URL: https://github.com/lukaszbanasiak/yahoo-finance/releases
-Description: # Test
+Download-URL: https://github.com/fuermosi777/china-stock
+Description: china-stock
+        ===========
         
-        ```
-        python -m unittest tests/test.py
-        ```
+        ~~~~~~~
+        Install
+        ~~~~~~~
         
-        # Use
+        .. code:: bash
         
-        ```
-        from china_stock import Stock
+        	$ pip install china-stock
         
-        symbol_list = ['sh000001', 'sh000002', 'sh601006']
-        stocks = Stock(symbol_list)
+        ~~~~
+        Test
+        ~~~~
         
-        stock = stocks.get_data[0]
-        ```
+        .. code:: bash
+        
+        	$ python -m unittest tests/test.py
+        
+        ~~~
+        Use
+        ~~~
+        
+        .. code:: python
+        
+        	>>> from china_stock import Stock
+        
+        	>>> symbol_list = ['sh000001', 'sh000002', 'sh601006']
+        	>>> stocks = Stock(symbol_list)
+        
+        	>>> stock = stocks.get_data[0]
 Keywords: stock
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha

@@ -1,16 +1,27 @@
-# Test
+china-stock
+===========
 
-```
-python -m unittest tests/test.py
-```
+~~~~~~~
+Install
+~~~~~~~
 
-# Use
+	$ pip install china-stock
 
-```
-from china_stock import Stock
+~~~~
+Test
+~~~~
 
-symbol_list = ['sh000001', 'sh000002', 'sh601006']
-stocks = Stock(symbol_list)
+	$ python -m unittest tests/test.py
 
-stock = stocks.get_data[0]
-```
+~~~
+Use
+~~~
+
+.. code:: python
+
+	>>> from china_stock import Stock
+
+	>>> symbol_list = ['sh000001', 'sh000002', 'sh601006']
+	>>> stocks = Stock(symbol_list)
+
+	>>> stock = stocks.get_data[0]

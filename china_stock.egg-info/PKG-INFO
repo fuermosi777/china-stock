@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: china-stock
+Version: 0.1.1
+Summary: china stock
+Home-page: https://github.com/lukaszbanasiak/yahoo-finance
+Author: Hao Liu
+Author-email: liuhao1990@gmail.com
+License: MIT
+Download-URL: https://github.com/lukaszbanasiak/yahoo-finance/releases
+Description: # Test
+        
+        ```
+        python -m unittest tests/test.py
+        ```
+        
+        # Use
+        
+        ```
+        from china_stock import Stock
+        
+        symbol_list = ['sh000001', 'sh000002', 'sh601006']
+        stocks = Stock(symbol_list)
+        
+        stock = stocks.get_data[0]
+        ```
+Keywords: stock
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4

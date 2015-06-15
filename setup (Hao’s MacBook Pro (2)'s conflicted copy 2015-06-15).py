@@ -1,7 +1,6 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages
+from distutils.core import setup
 import codecs
-import os
-import re
 
 # Get the long description from the relevant file
 with codecs.open('README.rst', encoding='utf-8') as f:
@@ -9,13 +8,13 @@ with codecs.open('README.rst', encoding='utf-8') as f:
 
 setup(
     name="china-stock",
-    version="0.1.1",
-    description="china stock",
+    version="0.1.0",
+    description="Python module to get stock information of Chinese SH and SZ exchanges",
     long_description=long_description,
 
     # The project URL.
     url='https://github.com/fuermosi777/china-stock',
-    download_url='https://github.com/fuermosi777/china-stock',
+    download_url='https://github.com/fuermosi777/china-stock/releases',
 
     # Author details
     author='Hao Liu',

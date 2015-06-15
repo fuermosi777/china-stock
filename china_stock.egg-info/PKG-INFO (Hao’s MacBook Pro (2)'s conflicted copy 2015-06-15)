@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: china-stock
+Version: 0.1.0
+Summary: Python module to get stock information of Chinese SH and SZ exchanges
+Home-page: https://github.com/fuermosi777/china-stock
+Author: Hao Liu
+Author-email: liuhao1990@gmail.com
+License: MIT
+Download-URL: https://github.com/fuermosi777/china-stock/releases
+Description: ddd
+Keywords: stock
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4

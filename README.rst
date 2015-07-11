@@ -9,23 +9,12 @@ Install
 
 	$ pip install china-stock
 
-~~~~
-Test
-~~~~
-
-.. code:: bash
-
-	$ python -m unittest tests/test.py
-
 ~~~
 Use
 ~~~
 
 .. code:: python
 
-	>>> from china_stock import Stock
+	>>> import chinastock as cs
 
-	>>> symbol_list = ['sh000001', 'sh000002', 'sh601006']
-	>>> stocks = Stock(symbol_list)
-
-	>>> stock = stocks.get_data[0]
+	>>> cs.get_stock_today('000001','SZ')

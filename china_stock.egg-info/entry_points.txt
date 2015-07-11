@@ -1,3 +1,0 @@
-[console_scripts]
-china-stock = china_stock:main
-

@@ -9,7 +9,7 @@ with codecs.open('README.rst', encoding='utf-8') as f:
 
 setup(
     name="china-stock",
-    version="0.1.3",
+    version="0.1.4",
     description="china stock",
     long_description=long_description,
 

@@ -5,7 +5,7 @@ china-stock
 Install
 ~~~~~~~
 
-.. code:: bash
+::
 
 	$ pip install china-stock
 
@@ -13,8 +13,10 @@ Install
 Use
 ~~~
 
-.. code:: python
+Import china-stock module:
 
-	>>> import chinastock as cs
+    >>> import chinastock as cs
+
+Get stock prices information on nearest trading day:
 
 	>>> cs.get_stock_today('000001','SZ')

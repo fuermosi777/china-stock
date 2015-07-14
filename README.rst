@@ -23,4 +23,16 @@ Get stock prices information on nearest trading day:
 
 ::
 
-	>>> cs.get_stock_today('000001','SZ')
+	>>> cs.get_stock_today(code='000001', exchange='SZ')
+
+Get historical stock close prices:
+
+::
+
+    >>> cs.get_stock_history(code='000001', exchange='SZ')
+
+Get stock's adjusted close prices, open, high, low, volume, and change:
+
+::
+
+    >>> cs.get_stock_history_adj(code='000001', exchange='SZ')

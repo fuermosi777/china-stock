@@ -1,6 +1,8 @@
 china-stock
 ===========
 
+.. image:: https://travis-ci.org/fuermosi777/china-stock.svg?branch=master
+
 ~~~~~~~
 Install
 ~~~~~~~
